@@ -1,8 +1,8 @@
 import Image from "next/image";
-
 import Layout from "@/app/layout";
 
 export default function Home() {
+
   return (
     <>
     <div className='  flex flex-col justify-center items-center  pr-96 pl-96 w-screen h-[35rem]  bg-[url("https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80")]'>
