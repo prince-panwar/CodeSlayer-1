@@ -14,13 +14,15 @@ export default async function Home() {
       </div>
       <div className='mt-10 ml-10' >
         <h1 className='animate-pulse font-mono text-3xl mb-5 font-bold'>Top Blogs</h1>
-        {data.map((item)=>{
-          <div>
-           <p>{item.id}</p> 
-           <p>{item.name}</p>
-           <p>{item.email}</p>
-            </div>
-        })}
+        {data.map((item) => {
+  return (
+    <div key={item.id}>
+      <p>{item.id}</p>
+      <p>{item.name}</p>
+      <p>{item.email}</p>
+    </div>
+  );
+})}
       </div>
     </>
   )
