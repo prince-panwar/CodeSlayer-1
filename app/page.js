@@ -3,7 +3,7 @@ import Layout from "@/app/layout";
 
 export default async function Home() {
   
-  const response = await fetch('/api/users');
+  const response = await fetch('http://localhost:3001/api/users');
  const data = await response.json();
 
   return (
